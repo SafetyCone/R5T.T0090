@@ -1,0 +1,3 @@
+R5T.T0090.Construction - Construction project for IJsonKey and IJsonKeyOperator extension method bases..
+
+GOALS:
