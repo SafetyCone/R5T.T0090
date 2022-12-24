@@ -10,7 +10,12 @@ namespace R5T.T0090
     {
         #region Static
         
-        public static JsonOperator Instance { get; } = new();
+        public static IJsonOperator Instance { get; } = new JsonOperator();
+
+
+        private JsonOperator()
+        {
+        }
 
         #endregion
     }
